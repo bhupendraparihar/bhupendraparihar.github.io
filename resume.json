@@ -1,7 +1,9 @@
 {
 	"name" : "Bhupendra Singh Parihar",
 	"title" : "Front End Engineer",
-	"contact" : "bhupendrasparihar@gmail.com | 997-217-6613 | www.jforjs.com",
+	"email" : "bhupendrasparihar@gmail.com",
+    "phoneNumber" : "+91 9972176613",
+    "website" : "http://www.jforjs.com",
 	"objective" : "To make high-quality, exciting, and fun web and mobile applications that are challenging, provide opportunities to learn new technologies, and allow me to work with other highly motivated and talented developers.",
 	"aboutme" : "I am passionate about writing and testing my code, learning new things, and teaching others. I enjoy writing and contributing to open source software.  I also enjoy speaking at conferences and local user groups about JavaScript.",
 	"social" : [
@@ -180,7 +182,7 @@
 			"startDate" : "2005",
 			"endDate" : "2009",
 			"program" : "Bachelor of Engineering in Information Technology",
-			"achievements" : "7.8 CPI"
+			"achievements" : "7.95 CPI(Cumulative Performance Index)"
 		}
 	]
 }
