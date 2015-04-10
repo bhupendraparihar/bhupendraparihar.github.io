@@ -1,0 +1,186 @@
+{
+	"name" : "Bhupendra Singh Parihar",
+	"title" : "Front End Engineer",
+	"contact" : "bhupendrasparihar@gmail.com | 997-217-6613 | www.jforjs.com",
+	"objective" : "To make high-quality, exciting, and fun web and mobile applications that are challenging, provide opportunities to learn new technologies, and allow me to work with other highly motivated and talented developers.",
+	"aboutme" : "I am passionate about writing and testing my code, learning new things, and teaching others. I enjoy writing and contributing to open source software.  I also enjoy speaking at conferences and local user groups about JavaScript.",
+	"social" : [
+		{
+			"link" : "https://www.github.com/bittersweetryan",
+			"name" : "GitHub"
+		},
+		{
+			"link" : "http://blog.bittersweetryan.com",
+			"name" : "Blog"
+		},
+		{
+			"link" : "http://www.linkedin.com/pub/ryan-anklam/3/ba9/765",
+			"name" : "LinkedIn"
+		},
+		{
+			"link" : "http://www.twitter.com/bittersweetryan",
+			"name" : "Twitter"
+		},
+		{
+			"link" : "https://plus.google.com/u/0/102276762899040799950/posts",
+			"name" : "Google+"
+		},
+		{
+			"link" : "https://github.com/bittersweetryan/jsonme",
+			"name" : "this.source"
+		}
+	],
+	"skills" : [
+		"JavaScript (ECMAScript versions 1.5,1.6, ES.next)",
+		"Node.js",
+        "Object Oriented Javascript",
+		"HTML5",
+		"Grunt.js",
+		"RESTful web services",
+		"CSS3",
+		"SQL",
+		"Core Java",
+		"GIT",
+        "Debugging",
+        "Website Performance"
+	],
+	"frameworks" : [
+		"Angular.js",
+		"Backbone.js",
+		"LESS",
+		"jQuery",
+		"Underscore.js",
+        "Handlebar.js",
+		"RequireJS",
+		"Jasmine",
+		"Twitter Bootstrap",
+		"JSON",
+        "GoogleMapAPI"
+	],
+	"projects" : [
+		{
+			"name" : "www.sewell.com",
+			"technologies" : "Object Oriented Javascript, Jasmine, GoogleMapApi, Responsive Design",
+			"description" : "Project sewell is a website build for group of car dealers in United States. It is a responsive website supporting digital marketing of cars."
+		},
+		{
+			"name" : "Flex+ Solution : http://stevinsonauto.com on mobile",
+			"technologies" : "jQuery, Bootstrap, RequireJS, CSS3, LESS, HTML5, Jasmine",
+			"description" : "Flex+ is a solution for dealer websites which are not responsive. It is adaptive layout design for each page and rendering using wicket code. Url: http://www.stevinsonauto.com/?device=mobile "
+		},
+        {
+            "name" : "ACB (Appointment CallBack)",
+            "technologies" : "AngularJS, jQuery, HTML5, OOJS, Jasmine",
+            "description" : "ACB provide a call tracking and scheduling system for business process executives."
+        },
+		{
+			"name" : "Contact Management System",
+			"technologies" : "jQuery, Backbone.js, LESS, HTML5, Twitter Bootstrap, Jasmine",
+			"description" : "CMS generates scripts for the agent (say BPO) to communicate easily with the client. These scripts or web pages are able to collect data from the user and can be configured any time to change the flow of business."
+		},
+		{
+			"name" : "LRM (Loan Resolution Model)",
+			"technologies" : "jQuery, Javascript, HTML5, CSS3, Struts2",
+			"description" : "LRM is one the highest revenue-making product of Altisource for its client Ocwen(Home Mortgage company in US). As the name suggest it provides various options to the customer which are default or going to be default on their loan, i.e., imminent default. My responsibility is to provide a web app for doing so."
+		}
+	],
+	"experience" : [
+		{
+			"company" : "Ness Technolgoies",
+			"link" : "http://www.ness.com",
+			"title" : "Senior Software Engineer",
+			"startDate" : "March 2014",
+			"endDate" : "Present",
+			"responsibilities" : "At Ness technologies I worked for CDK Global which provide digital marketing website for car dealers all over the world, moslty for US. My responsibilities includes understanding the client requirement and create differnt widget that can be easily placed on any dealer website.",
+			"achievements" : "Introduced Dealer Locator widget using the googlemap api on various sites to easily navigate to nearest dealer."
+		},
+		{
+			"company" : "Altisource Business Solutions",
+			"link" : "http://www.altisource.com",
+			"title" : "Software Engineer",
+			"startDate" : "September 2013",
+			"endDate" : "Febrabuary 2014",
+			"responsibilities" : "Implement best practices to JavaScript codebase, develop new functionality and create new layouts, teach advanced Javacript techniques to the team",
+			"achievements" : "Introduced unit testing, continuous integration, source control, and development best practices to the team.  Started the Lunch and Learn program where team members teach each other new technologies and techniques."
+		},
+		{
+			"company" : "GCM Convent School",
+			"link" : "http://gcmnowgong.in",
+			"title" : "Physics & Computer Science Faculty",
+			"startDate" : "January 2013",
+			"endDate" : "August 2013",
+			"responsibilities" : "Teaching Pre-college physics and computer science to students",
+			"achievements" : "Taught various aspects of physics, took the initiative of smart learning pearson course in school."
+		},
+		{
+			"company" : "Altisource Business Solutions",
+			"link" : "http://www.altisource.com",
+			"title" : "Software Engineer",
+			"startDate" : "April 2010",
+			"endDate" : "December 2012",
+			"responsibilities" : "Develoment and Design of a system which facilitate call center executive to track and manage their calls.",
+			"achievements" : "Lead efforts to re-write procedural legacy application using an object-oriented approach. Act as scrum master to drive the team."
+		}
+	],
+	"speaking" : [ 
+		{
+			"title" : "Going Node at Netflix",
+			"location" : "ThatConference, Wisconsin Dells, WI",
+			"link" : "http://www.slideshare.net/RyanAnklam/going-node-at-netflix?qid=a000eb62-ede4-4976-8c0a-a2aec0ce250e&v=qf1&b=&from_search=1"
+		},
+		{
+			"title" : "Rethink ASYNC",
+			"location" : "ThatConference, Wisconsin Dells, WI",
+			"link" : "http://www.slideshare.net/RyanAnklam/rethink-async-with-rxjs"
+		},
+		{
+			"title" : "Stop Making Excuses And Start Testing Your JavaScript",
+			"location" : "HTML5 Developer Conference, San Francisco, CA",
+			"link" : "https://www.youtube.com/watch?v=yRMsxyGsez4&feature=youtu.be"
+		},
+		{
+			"title" : "Add More Fun to Your Functional Programming With RXJS",
+			"location" : "Mountain West JavaScript, Salt Lake City, UT",
+			"link" : "https://www.youtube.com/watch?v=8EExNfm0gt4"
+		},
+		{
+			"title" : "An Introduction to AMD with RequireJS",
+			"location" : "MilwaukeeJS, March 26, 2013 | cf.Objective() 2013, May 23, 2013",
+			"link" : "http://bittersweetryan.github.com/introduction-to-amd"
+		},
+		{
+			"title" : "JavaScript Unit Testing With Jasmine",
+			"location" : "Northwestern Mutual, March 2013",
+			"link" : "http://bittersweetryan.github.com/jasmine-presentation/"
+		},
+		{
+			"title" : "The Art of JavaScript: Level Up Your Skills In 60 Minutes",
+			"location" : "NCDevCon 2012, Raleigh NC | cf.Objective() 2013, May 23, 2013",
+			"link" : "http://textiles.online.ncsu.edu/online/SilverlightPlayer/Default.aspx?peid=02c7fe6174654f96b78a6194d3dbbe9d1d"
+		},
+		{
+			"title" : "JavaScript Fundamentals for ColdFusion Developers",
+			"location" : "CFObjective 2011, Minneapolis MN",
+			"link" : "http://bittersweetryan.github.com/javascript-for-coldfusion-devs/"
+		},
+		{ 
+			"title" : "JavaScript Fundamentals for ColdFusion Developers",
+			"location" : "The Online ColdFusion Meetup",
+			"link" : "http://www.meetup.com/coldfusionmeetup/events/32356622/"
+		},
+		{ 
+			"title" : "TDD Demystified: Hone Your Skills with Katas",
+			"location" : "The Online ColdFusion Meetup",
+			"link" : "http://www.meetup.com/coldfusionmeetup/events/15165569/" 
+		}
+	],
+	"education" : [
+		{
+			"school" : "Government Engineering College, Bilaspur, Chhattisgarh, India",
+			"startDate" : "2005",
+			"endDate" : "2009",
+			"program" : "Bachelor of Engineering in Information Technology",
+			"achievements" : "7.8 CPI"
+		}
+	]
+}
