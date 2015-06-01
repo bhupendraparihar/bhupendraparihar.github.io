@@ -110,6 +110,42 @@
 
 				</ul>
 			</section>
+			<section id="training">
+				<h1>Training Experience</h1>
+				<ul data-content="training">
+					<li ng-repeat="item in resume.training">
+						<section>
+							<ul>
+                <li>
+                    <div class="label">Company:</div>
+                    <div class="content">{{item.company}}</div>
+                </li>
+                <li>
+                    <div class="label">Technology:</div>
+                    <div class="content">{{item.technology}}</div>
+                </li>
+                <li>
+                    <div class="label">Location:</div>
+                    <div class="content">{{item.location}}</div>
+                </li>
+                <li>
+									<div class="label">Duration:</div>
+									<div class="content">{{item.duration}}</div>
+								</li>
+								<li>
+									<div class="label">Batch Size:</div>
+									<div class="content">{{item.batchsize}}</div>
+								</li>
+								<li>					
+									<div class="label">Responsibilities:</div>
+									<div class="content">{{item.workResponsibilities[0]}}</div>
+								</li>
+							</ul>
+						</section>
+					</li>
+
+				</ul>
+			</section>
 
 			<section id="education">
 				<h1>Education</h1>

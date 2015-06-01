@@ -124,6 +124,53 @@
 			"achievements" : "Lead efforts to re-write procedural legacy application using an object-oriented approach. Act as scrum master to drive the team."
 		}
 	],
+	"training" : [
+		{
+			"company" : "MakeMyTrip",
+			"technology" : "Jquery, HTML5",
+			"location" : "Gurgaon",
+			"duration" : "9 June - 12 June",
+			"batchsize" : "17",
+			"workResponsibilities" : [
+				"Train Engineers in HTML5 and jQuery",
+				"Project Training"
+			]
+		},
+		{
+			"company" : "Mphasis Bangalore",
+			"technology" : "Object Orinted JavaScript",
+			"location" : "Bangalore",
+			"duration" : "10 May 2014 - 11 May 2014",
+			"batchsize" : "21",
+			"workResponsibilities" : [
+				"Train Leads and Architects in Front end MVC using Backbonejs",
+				"Project Training"
+			]
+		},
+		{
+			"company" : "Causeway Technologies Ltd",
+			"technology" : "Backbonejs",
+			"location" : "Bangalore",
+			"duration" : "March 2012 to April 2012",
+			"batchsize" : "45",
+			"workResponsibilities" : [
+				"Architect the product design",
+				"Work with the leads and ensure product delivery",
+				"Work on Backbone.js on enterprise product"
+			]
+		},
+		{
+			"company" : "Thought-works infotech",
+			"technology" : "AngularJS, nodejs, Mongo DB",
+			"location" : "Bangalore",
+			"duration" : "16 Dec 2014 - 30 Dec 2014",
+			"batchsize" : "17",
+			"workResponsibilities" : [
+				"Train Engineers in HTML5 and Jquery, Importance of AngularJS",
+				"Project Training"
+			]
+		}
+	],
 	"speaking" : [ 
 		{
 			"title" : "Going Node at Netflix",
