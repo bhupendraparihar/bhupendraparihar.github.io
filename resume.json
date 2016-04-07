@@ -66,6 +66,11 @@
 			"description":"Alexander Mini is one of the most famous car dealer website which requested for a full white plane theme to be created with in short span of time. Not only we created this theme for http://www.alexandermini.com/ but for all the mini dealers in US."
 		},
 		{
+			"name":"EDO(Enhance Design Options) for all the CDK websites",
+			"technologies":"Javascript, Jquery, LESS, HTML5",
+			"description": "This project is about adding many features like Stiky Navigation, New Navigations, Enlarged Header & Footer to be added to all the CDK websites. CDK owns more than 10000 websites around the world."
+		},
+		{
 			"name" : "www.sewell.com",
 			"technologies" : "Object Oriented Javascript, Jasmine, GoogleMapApi, Responsive Design",
 			"description" : "Project sewell is a website build for group of car dealers in United States. It is a responsive website supporting digital marketing of cars."
