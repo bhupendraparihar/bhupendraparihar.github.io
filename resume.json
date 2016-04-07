@@ -61,6 +61,11 @@
 	],
 	"projects" : [
 		{
+			"name":"www.alexandermini.com",
+			"technologies":"LESS, CCS3, Javascript, JQuery",
+			"description":"Alexander Mini is one of the most famous car dealer website which requested for a full white plane theme to be created with in short span of time. Not only we created this theme for http://www.alexandermini.com/ but for all the mini dealers in US."
+		},
+		{
 			"name" : "www.sewell.com",
 			"technologies" : "Object Oriented Javascript, Jasmine, GoogleMapApi, Responsive Design",
 			"description" : "Project sewell is a website build for group of car dealers in United States. It is a responsive website supporting digital marketing of cars."
