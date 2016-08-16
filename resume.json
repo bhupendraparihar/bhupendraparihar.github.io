@@ -49,6 +49,7 @@
 	"frameworks" : [
 		"Angular.js",
 		"Backbone.js",
+		"Nodejs",
 		"LESS",
 		"jQuery",
 		"Underscore.js",
