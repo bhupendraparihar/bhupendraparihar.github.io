@@ -1,14 +1,16 @@
 {
 	"name" : "Bhupendra Singh Parihar",
-	"title" : "Front End Engineer",
+	"title" : "Web Developer",
 	"email" : "bhupendrasparihar@gmail.com",
     "phoneNumber" : "+91 9972176613",
     "website" : "http://www.jforjs.com",
 	"objective" : "To make high-quality, exciting, and fun web and mobile applications that are challenging, provide opportunities to learn new technologies, and allow me to work with other highly motivated and talented developers.",
 	"aboutme" : "I am passionate about writing and testing my code, learning new things, and teaching others. I enjoy writing and contributing to open source software.  I also enjoy speaking at conferences and local user groups about JavaScript.",
+    "github":"https://github.com/bhupendraparihar/",
+    "linkedin":"https://www.linkedin.com/in/bhupendraparihar",
 	"social" : [
 		{
-			"link" : "https://www.github.com/bittersweetryan",
+			"link" : "https://github.com/bhupendraparihar/",
 			"name" : "GitHub"
 		},
 		{
@@ -60,6 +62,19 @@
         "GoogleMapAPI"
 	],
 	"projects" : [
+		{
+				"name":"Design V2 NextGen",
+				"technologies":"Object Oriented Javascript, NodeJS, Grunt",
+				"description":"Next Gen Cdk websites has to accomodate the new manifest.json from the file system to apply the new themes and design provided by designers. My role is to manage a team of 5 people, and help them developing directives using Co framework to ease the design change of a given NextGen site.",
+				"role":"Write directives in using Co framework to ease the design change of a given NextGen site."
+		},
+        {
+            "name":"Dealer Group Location",
+            "technologies":"Javascript, HTML5, GoogleMapAPI",
+            "url":"http://www.stevinsonauto.com/DealerLocations",
+            "description":"Showing the car dealers of a particular group on Google Map using googleMapAPI and help the buyer to locate the appropriate dealer based on his shared location.",
+            "role":"My role was to interact with the REST API and show the desired behavior."
+        },
 		{
 			"name":"www.alexandermini.com",
 			"technologies":"LESS, CCS3, Javascript, JQuery",
@@ -181,7 +196,7 @@
 			]
 		}
 	],
-	"speaking" : [ 
+	"speaking" : [
 		{
 			"title" : "Going Node at Netflix",
 			"location" : "ThatConference, Wisconsin Dells, WI",
@@ -222,15 +237,15 @@
 			"location" : "CFObjective 2011, Minneapolis MN",
 			"link" : "http://bittersweetryan.github.com/javascript-for-coldfusion-devs/"
 		},
-		{ 
+		{
 			"title" : "JavaScript Fundamentals for ColdFusion Developers",
 			"location" : "The Online ColdFusion Meetup",
 			"link" : "http://www.meetup.com/coldfusionmeetup/events/32356622/"
 		},
-		{ 
+		{
 			"title" : "TDD Demystified: Hone Your Skills with Katas",
 			"location" : "The Online ColdFusion Meetup",
-			"link" : "http://www.meetup.com/coldfusionmeetup/events/15165569/" 
+			"link" : "http://www.meetup.com/coldfusionmeetup/events/15165569/"
 		}
 	],
 	"education" : [

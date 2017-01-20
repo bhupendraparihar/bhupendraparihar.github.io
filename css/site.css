@@ -53,3 +53,11 @@ section ul {
 section .double li {
     float: left;
     width: 30%; }
+
+#contact{
+    font-size: 13px;
+}
+
+#contact a{
+    text-decoration: none;
+}

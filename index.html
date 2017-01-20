@@ -7,7 +7,9 @@
 		<link rel="stylesheet" type="text/css" href="css/site.css">
 		<link rel="stylesheet" type="text/css" media="screen and (max-width: 480px)" href="css/small.css" />
         <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
 		<title></title>
+        
 		<script src="script/angular.min.js"></script>
 		<script src="script/app.js"></script>
 	</head>
@@ -26,7 +28,19 @@
 			<section>
 				<h1 data-content="name" class="name">{{resume.name}}</h1>
 				<h2 data-content="title">{{resume.title}}</h2>
-				<section id="contact"><span><a href="mailto:{{resume.email}}">{{resume.email}}</a></span><span class="seperator">|</span><span><a href="tel:{{resume.phoneNumber}}">{{resume.phoneNumber}}</a></span><span class="seperator">|</span><span><a href="{{resume.website}}">{{resume.website}}</a></span>
+				<section id="contact">
+                    <div class="social"><i class="fa fa-phone fa-fw" aria-hidden="true"></i>&nbsp;<a href="tel:{{resume.phoneNumber}}">{{resume.phoneNumber}}</a></div>
+                    <div class="social">
+                        <i class="fa fa-envelope fa-fw" aria-hidden="true"></i>&nbsp;<a href="mailto:{{resume.email}}">{{resume.email}}</a></div>
+                    <div class="social">
+                        <i class="fa fa-link fa-fw" aria-hidden="true"></i>&nbsp;<a href="{{resume.github}}">{{resume.website}}</a>
+                    </div>
+                    <div class="social">
+                        <i class="fa fa-github fa-fw" aria-hidden="true"></i>&nbsp;<a href="{{resume.github}}">{{resume.github}}</a>
+                    </div>
+                    <div class="social">
+                        <i class="fa fa-linkedin fa-fw" aria-hidden="true"></i>&nbsp;<a href="{{resume.linkedin}}">{{resume.linkedin}}</a>
+                    </div>
 				</section>
 			</section>
 			
@@ -63,6 +77,10 @@
                                 <li>
                                     <div class="label">Name:</div>
                                     <div class="content">{{project.name}}</div>
+                                </li>
+                                <li ng-show="project.url">
+                                    <div class="label">URL:</div>
+                                    <div class="content"><a href="{{project.url}}">{{project.url}}</a></div>
                                 </li>
                                 <li>
                                     <div class="label">Technologies:</div>
