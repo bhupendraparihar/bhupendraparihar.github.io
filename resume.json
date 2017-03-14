@@ -254,6 +254,16 @@
 			"endDate" : "2009",
 			"program" : "Bachelor of Engineering in Information Technology",
 			"achievements" : "7.95 CPI(Cumulative Performance Index)/ 71.6%(Percentage)"
+		},
+		{
+			"school" : "Kendriya Vidyalaya",
+			"startDate" : "2004",
+			"endDate" : "2005",
+			"program" : "12th CBSE",
+			"achievements" : "82.4%(Percentage)"
 		}
+	],
+	"extras": [
+		
 	]
 }
