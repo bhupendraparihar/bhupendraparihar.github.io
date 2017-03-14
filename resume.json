@@ -2,7 +2,7 @@
 	"name" : "Bhupendra Singh Parihar",
 	"title" : "Web Developer",
 	"email" : "bhupendrasparihar@gmail.com",
-    "phoneNumber" : "+91 9972176613",
+    "phoneNumber" : "+91 9008008084",
     "website" : "http://www.jforjs.com",
 	"objective" : "To make high-quality, exciting, and fun web and mobile applications that are challenging, provide opportunities to learn new technologies, and allow me to work with other highly motivated and talented developers.",
 	"aboutme" : "I am passionate about writing and testing my code, learning new things, and teaching others. I enjoy writing and contributing to open source software.  I also enjoy speaking at conferences and local user groups about JavaScript.",
@@ -37,7 +37,8 @@
 	"skills" : [
 		"JavaScript (ECMAScript versions 1.5,1.6, ES.next)",
 		"Node.js",
-        "Object Oriented Javascript",
+		"AngularJS",
+    "Object Oriented Javascript",
 		"HTML5",
 		"Grunt.js",
 		"RESTful web services",
@@ -45,39 +46,37 @@
 		"SQL",
 		"Core Java",
 		"GIT",
-        "Debugging",
-        "Website Performance"
+    "Debugging",
+    "Website Performance"
 	],
 	"frameworks" : [
-		"Angular.js",
-		"Backbone.js",
 		"LESS",
 		"jQuery",
 		"Underscore.js",
-        "Handlebar.js",
+    "Handlebar.js",
 		"RequireJS",
 		"Jasmine",
 		"Twitter Bootstrap",
 		"JSON",
-        "GoogleMapAPI"
+    "GoogleMapAPI"
 	],
 	"projects" : [
 		{
 				"name":"Design V2 NextGen",
-				"technologies":"Object Oriented Javascript, NodeJS, Grunt",
-				"description":"Next Gen Cdk websites has to accomodate the new manifest.json from the file system to apply the new themes and design provided by designers. My role is to manage a team of 5 people, and help them developing directives using Co framework to ease the design change of a given NextGen site.",
+				"technologies":"Object Oriented Javascript, NodeJS, Grunt, GIT",
+				"description":"Next Gen Cdk websites has to accomodate the new manifest.json from the file system to apply the new themes and design provided by designers. My role is to write and test code, doing code-reviews, helping my team of 5 people for any techical or domain specific issues.",
 				"role":"Write directives in using Co framework to ease the design change of a given NextGen site."
 		},
         {
             "name":"Dealer Group Location",
-            "technologies":"Javascript, HTML5, GoogleMapAPI",
+            "technologies":"Javascript, HTML5, GoogleMapAPI, Yomen",
             "url":"http://www.stevinsonauto.com/DealerLocations",
             "description":"Showing the car dealers of a particular group on Google Map using googleMapAPI and help the buyer to locate the appropriate dealer based on his shared location.",
             "role":"My role was to interact with the REST API and show the desired behavior."
         },
 		{
 			"name":"www.alexandermini.com",
-			"technologies":"LESS, CCS3, Javascript, JQuery",
+			"technologies":"LESS, CCS3, OOJS, JQuery, GIT",
 			"description":"Alexander Mini is one of the most famous car dealer website which requested for a full white plane theme to be created with in short span of time. Not only we created this theme for http://www.alexandermini.com/ but for all the mini dealers in US."
 		},
 		{
@@ -97,7 +96,7 @@
 		},
         {
             "name" : "ACB (Appointment CallBack)",
-            "technologies" : "AngularJS, jQuery, HTML5, OOJS, Jasmine",
+            "technologies" : "OOJS, AngularJS, jQuery, HTML5, OOJS, Jasmine",
             "description" : "ACB provide a call tracking and scheduling system for business process executives."
         },
 		{
