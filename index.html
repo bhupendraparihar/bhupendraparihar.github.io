@@ -1,22 +1,22 @@
 <!DOCTYPE html>
 <html>
-	<head>		
+	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
-		
+
 		<link rel="stylesheet" type="text/css" href="css/site.css">
 		<link rel="stylesheet" type="text/css" media="screen and (max-width: 480px)" href="css/small.css" />
         <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
 		<title></title>
-        
+
 		<script src="script/angular.min.js"></script>
 		<script src="script/app.js"></script>
 	</head>
 	<body ng-app="myApp" ng-controller="myCtrl">
 		<nav>
 			<ul data-content="social">
-				
+
 			</ul>
 		</nav>
 
@@ -43,7 +43,7 @@
                     </div>
 				</section>
 			</section>
-			
+
 			<section id="objective">
 				<h1>Objective</h1>
 				<p data-content="objective">{{resume.objective}}</p>
@@ -96,6 +96,30 @@
 				</ul>
 			</section>
 
+			<section id="personalProjects">
+				<h1>Personal Projects</h1>
+				<ul data-content="projects">
+                    <li ng-repeat="project in resume.personalProjects">
+                        <section>
+                            <ul>
+                                <li>
+                                    <div class="label">Name:</div>
+                                    <div class="content">{{project.title}}</div>
+                                </li>
+                                <li ng-show="project.link">
+                                    <div class="label">URL:</div>
+                                    <div class="content"><a href="{{project.link}}">{{project.link}}</a></div>
+                                </li>
+                                <li>
+                                    <div class="label">Description:</div>
+                                    <div class="content">{{project.description}}</div>
+                                </li>
+                            </ul>
+                        </section>
+                    </li>
+				</ul>
+			</section>
+
 			<section id="experience">
 				<h1>Experience</h1>
 				<ul data-content="experience">
@@ -118,7 +142,7 @@
 									<div class="label">Responsibilities:</div>
 									<div class="content">{{item.responsibilities}}</div>
 								</li>
-								<li>					
+								<li>
 									<div class="label">Achievements:</div>
 									<div class="content">{{item.achievements}}</div>
 								</li>
@@ -154,7 +178,7 @@
 									<div class="label">Batch Size:</div>
 									<div class="content">{{item.batchsize}}</div>
 								</li>
-								<li>					
+								<li>
 									<div class="label">Responsibilities:</div>
 									<div class="content">{{item.workResponsibilities[0]}}</div>
 								</li>
