@@ -5,7 +5,7 @@
     "phoneNumber" : "+91 9008008084",
     "website" : "http://www.jforjs.com",
 	"objective" : "To make high-quality, exciting, and fun web and mobile applications that are challenging, provide opportunities to learn new technologies, and allow me to work with other highly motivated and talented developers.",
-	"aboutme" : "I am passionate about writing and testing my code, learning new things, and teaching others. I enjoy writing and contributing to open source software.  I also enjoy speaking at conferences and local user groups about JavaScript.",
+	"aboutme" : "I am passionate about writing and testing my code, learning new things, and teaching others. I enjoy understanding problems, finding their solutions, making them simplified. I enjoy writing and contributing to open source software.  I also enjoy speaking at conferences and local user groups about JavaScript.",
     "github":"https://github.com/bhupendraparihar/",
     "linkedin":"https://www.linkedin.com/in/bhupendraparihar",
 	"social" : [
@@ -269,7 +269,7 @@
 	"personalProjects": [
 		{
 			"title":"www.jforjs.com",
-			"description":"This is my own technical blog, which I am maintain and update regularly about Javacript.",
+			"description":"This is my own technical blog, which I am maintaing and updating regularly. Most of the posts are about Javascript world.",
 			"link":"http://www.jforjs.com"
 		},
 		{
