@@ -2,17 +2,19 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-#content{
+#content {
     margin: 0 auto;
     width: 800px;
 }
-.first{
+
+.first {
     float: right;
 }
 
-li{
+li {
     list-style: none;
 }
+
 section h1 {
     margin-bottom: 0px;
     padding-bottom: 5px;
@@ -21,11 +23,11 @@ section h1 {
     border-bottom: 1px solid #e3e3e3;
 }
 
-.seperator{
+.seperator {
     margin: 0 .5rem 0 .5rem;
 }
 
-.name{
+.name {
     font-size: 2rem;
 }
 
@@ -43,21 +45,25 @@ section .content {
     display: inline-block;
 }
 
-section section{
+section section {
     margin-bottom: 2rem;
 }
 
 section ul {
     width: 800px;
-    overflow: hidden; }
+    overflow: hidden;
+    padding-left: 0;
+}
+
 section .double li {
     float: left;
-    width: 30%; }
+    width: 30%;
+}
 
-#contact{
+#contact {
     font-size: 13px;
 }
 
-#contact a{
+#contact a {
     text-decoration: none;
 }
