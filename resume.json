@@ -1,6 +1,6 @@
 {
     "name": "Bhupendra Singh Parihar",
-    "title": "Web Developer - Tech Lead ",
+    "title": "Full Stack Developer - Tech Lead",
     "email": "bhupendrasparihar@gmail.com",
     "phoneNumber": "+91 9008008084",
     "website": "http://www.jforjs.com",
@@ -109,12 +109,12 @@
         }
     ],
     "experience": [{
-            "company": "Shoretel Telecommunication",
-            "link": "https://www.shoretel.com/",
+            "company": "Mitel Networks",
+            "link": "http://www.mitel.com/",
             "title": "Technical Lead Software Engineer",
             "startDate": "June 2017",
             "endDate": "Present",
-            "responsibilities": "At Shoretel we follow Agile methodologies, and I am involved in creating mobile and desktop based application for telecommunication.My responsiblities to write code for the new features and also helping my team if they stuck in any technical challanges."
+            "responsibilities": "At Mitel we follow Agile methodologies, and I am involved in creating mobile and desktop based application for telecommunication.My responsiblities to write code for the new features and also helping my team if they stuck in any technical challanges."
         },
         {
             "company": "Ness Technolgoies",
