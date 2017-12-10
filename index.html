@@ -10,12 +10,10 @@
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
     <title></title>
-
-    <script src="script/angular.min.js"></script>
-    <script src="script/app.js"></script>
+    
 </head>
 
-<body ng-app="myApp" ng-controller="myCtrl">
+<body>
     <nav>
         <ul data-content="social">
 
@@ -27,24 +25,7 @@
 				<span class="right"><a href="resume.json">View as JSON</a></span>
 			</div>-->
 
-        <section>
-            <h1 data-content="name" class="name">{{resume.name}}</h1>
-            <h2 data-content="title">{{resume.title}}</h2>
-            <section id="contact">
-                <div class="social"><i class="fa fa-phone fa-fw" aria-hidden="true"></i>&nbsp;<a href="tel:{{resume.phoneNumber}}">{{resume.phoneNumber}}</a></div>
-                <div class="social">
-                    <i class="fa fa-envelope fa-fw" aria-hidden="true"></i>&nbsp;<a href="mailto:{{resume.email}}">{{resume.email}}</a></div>
-                <div class="social">
-                    <i class="fa fa-link fa-fw" aria-hidden="true"></i>&nbsp;<a href="{{resume.github}}">{{resume.website}}</a>
-                </div>
-                <div class="social">
-                    <i class="fa fa-github fa-fw" aria-hidden="true"></i>&nbsp;<a href="{{resume.github}}">{{resume.github}}</a>
-                </div>
-                <div class="social">
-                    <i class="fa fa-linkedin fa-fw" aria-hidden="true"></i>&nbsp;<a href="{{resume.linkedin}}">{{resume.linkedin}}</a>
-                </div>
-            </section>
-        </section>
+
 
         <section id="objective">
             <h1>Objective</h1>
@@ -222,7 +203,8 @@
 
     <!--<footer>
 			Last updated on: 10-April-2015
-		</footer>-->
+        </footer>-->
+    <script src="script/index.js"></script>
 </body>
 
 </html>
