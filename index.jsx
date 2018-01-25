@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import axios from 'axios';
-
+import resumeData from './resume.js';
 
 class ResumeHeader extends React.Component {
     constructor(props){
@@ -31,156 +30,208 @@ class ResumeHeader extends React.Component {
                     </section>
                 </section>
 
-                <section id="objective">
-                    <h1>Objective</h1>
-                    <p data-content="objective">{this.props.resume.objective}</p>
-                </section>
+                <Objective objective={this.props.resume.objective} />
                 
-                <section id="aboutme">
-                    <h1>Executive Summary</h1>
-                    <p data-content="aboutme">{this.props.resume.aboutme}</p>
-                </section>
+                <AboutMe aboutme={this.props.resume.aboutme} />
 
-                <section id="skills">
-                    <h1>Skills / Languages</h1>
-                    <ul data-content="skills" className="double">
-                        {this.props.resume.skills.map(function(skill){
-                            return <li>{skill}</li>
-                        })}
-                    </ul>
-                </section>
+                <Skills skills={this.props.resume.skills} />
 
-                <section id="frameworks">
-                    <h1>Frameworks / Libraries / Data Formats</h1>
-                    <ul data-content="frameworks" className="double">
-                        {this.props.resume.frameworks.map(function(framework){
-                            return <li>{framework}</li>
-                        })}
-                    </ul>
-                </section>
+                <Frameworks frameworks={this.props.resume.frameworks} />
 
-                <section id="projects">
-                    <h1>Projects</h1>
-                    <ul data-content="projects">
-                        {this.props.resume.projects.map(function(project){
-                        return (<li>
-                            <section>
-                                <ul>
-                                    <li>
-                                        <div className="label">Name:</div>
-                                        <div className="content">{project.name}</div>
-                                    </li>
-                                    {project.url?(<li>
-                                        <div className="label">URL:</div>
-                                        <div className="content"><a href="{project.url}">{project.url}</a></div>
-                                    </li>):null}
-                                    <li>
-                                        <div className="label">Technologies:</div>
-                                        <div className="content">{project.technologies}</div>
-                                    </li>
-                                    <li>
-                                        <div className="label">Description:</div>
-                                        <div className="content">{project.description}</div>
-                                    </li>
-                                </ul>
-                            </section>
-                        </li>);
-                        })}
-                    </ul>
-                </section>
+                <Projects projects={this.props.resume.projects} />
+                
+                <PersonalProjects personalProjects={this.props.resume.personalProjects} />
 
-                <section id="personalProjects">
-                    <h1>Personal Projects</h1>
-                    <ul data-content="projects">
-                        {this.props.resume.personalProjects.map(function(project){
-                        return (<li>
-                            <section>
-                                <ul>
-                                    <li>
-                                        <div className="label">Name:</div>
-                                        <div className="content">{project.title}</div>
-                                    </li>
-                                    <li ng-show="project.link">
-                                        <div className="label">URL:</div>
-                                        <div className="content"><a href="{project.link}">{project.link}</a></div>
-                                    </li>
-                                    <li>
-                                        <div className="label">Description:</div>
-                                        <div className="content">{project.description}</div>
-                                    </li>
-                                </ul>
-                            </section>
-                        </li>);
-                        })}
-                    </ul>
-                </section>
-
-                <section id="experience">
-                    <h1>Experience</h1>
-                    <ul data-content="experience">
-                        {this.props.resume.experience.map(function(item){
-                        return (<li>
-                            <section>
-                                <ul>
-                                    <li>
-                                        <div className="label">Company:</div>
-                                        <div className="content">{item.company}</div>
-                                    </li>
-                                    <li>
-                                        <div className="label">Title:</div>
-                                        <div className="content">{item.title}</div>
-                                    </li>
-                                    <li>
-                                        <div className="label">Tenure:</div>
-                                        <div className="content">{item.startDate} - {item.endDate}</div>
-                                    </li>
-                                    <li>
-                                        <div className="label">Responsibilities:</div>
-                                        <div className="content">{item.responsibilities}</div>
-                                    </li>
-                                    <li ng-if="item.achievements">
-                                        <div className="label">Achievements:</div>
-                                        <div className="content">{item.achievements}</div>
-                                    </li>
-                                </ul>
-                            </section>
-                        </li>);
-                        })}
-                    </ul>
-                </section>
-
-                <section id="education">
-                    <h1>Education</h1>
-                    <ul data-content="education">
-                        {this.props.resume.education.map(function(item){
-                        return (<li>
-                            <section>
-                                <ul>
-                                    <li>
-                                        <div className="label">School:</div>
-                                        <div className="content">{item.school}</div>
-                                    </li>
-                                    <li>
-                                        <div className="label">Program:</div>
-                                        <div className="content">{item.program}</div>
-                                    </li>
-                                    <li>
-                                        <div className="label">Dates Attended:</div>
-                                        <div className="content">{item.startDate} - {item.endDate}</div>
-                                    </li>
-                                    <li>
-                                        <div className="label">Achievements:</div>
-                                        <div className="content">{item.achievements}</div>
-                                    </li>
-                                </ul>
-                            </section>
-                        </li>)
-                        })}
-                    </ul>
-                </section>
+                <Experience experience={this.props.resume.experience} />
+                
+                <Education education={this.props.resume.education} />
             </div>
         );
     }
+}
+
+const Objective = (props) => {
+    return (
+        <section id="objective">
+            <h1>Objective</h1>
+            <p data-content="objective">{props.objective}</p>
+        </section>
+    );
+}
+
+const AboutMe = (props) => {
+    return (
+        <section id="aboutme">
+            <h1>Executive Summary</h1>
+            <p data-content="aboutme">{props.aboutme}</p>
+        </section>
+    );
+}
+
+const Skills = (props) => {
+    return (
+        <section id="skills">
+            <h1>Skills / Languages</h1>
+            <ul data-content="skills" className="double">
+                {props.skills.map(function(skill){
+                    return <li>{skill}</li>
+                })}
+            </ul>
+        </section>
+    );
+}
+
+const Frameworks = (props) => {
+    return (
+        <section id="frameworks">
+            <h1>Frameworks / Libraries / Data Formats</h1>
+            <ul data-content="frameworks" className="double">
+                {props.frameworks.map(function(framework){
+                    return <li>{framework}</li>
+                })}
+            </ul>
+        </section>
+    );
+}
+
+const Projects = (props) => {
+
+    return (
+        <section id="projects">
+            <h1>Projects</h1>
+            <ul data-content="projects">
+                {props.projects.map(function(project){
+                return (<li>
+                    <section>
+                        <ul>
+                            <li>
+                                <div className="label">Name:</div>
+                                <div className="content">{project.name}</div>
+                            </li>
+                            {project.url?(<li>
+                                <div className="label">URL:</div>
+                                <div className="content"><a href="{project.url}">{project.url}</a></div>
+                            </li>):null}
+                            <li>
+                                <div className="label">Technologies:</div>
+                                <div className="content">{project.technologies}</div>
+                            </li>
+                            <li>
+                                <div className="label">Description:</div>
+                                <div className="content">{project.description}</div>
+                            </li>
+                        </ul>
+                    </section>
+                </li>);
+                })}
+            </ul>
+        </section>
+    );
+}
+
+const PersonalProjects = (props) => {
+
+    return (
+        <section id="personalProjects">
+            <h1>Personal Projects</h1>
+            <ul data-content="projects">
+                {props.personalProjects.map(function(project){
+                return (<li>
+                    <section>
+                        <ul>
+                            <li>
+                                <div className="label">Name:</div>
+                                <div className="content">{project.title}</div>
+                            </li>
+                            <li ng-show="project.link">
+                                <div className="label">URL:</div>
+                                <div className="content"><a href="{project.link}">{project.link}</a></div>
+                            </li>
+                            <li>
+                                <div className="label">Description:</div>
+                                <div className="content">{project.description}</div>
+                            </li>
+                        </ul>
+                    </section>
+                </li>);
+                })}
+            </ul>
+        </section>
+    );
+}
+
+const Experience = (props) => {
+    
+    return (
+        <section id="experience">
+            <h1>Experience</h1>
+            <ul data-content="experience">
+                {props.experience.map(function(item){
+                return (<li>
+                    <section>
+                        <ul>
+                            <li>
+                                <div className="label">Company:</div>
+                                <div className="content">{item.company}</div>
+                            </li>
+                            <li>
+                                <div className="label">Title:</div>
+                                <div className="content">{item.title}</div>
+                            </li>
+                            <li>
+                                <div className="label">Tenure:</div>
+                                <div className="content">{item.startDate} - {item.endDate}</div>
+                            </li>
+                            <li>
+                                <div className="label">Responsibilities:</div>
+                                <div className="content">{item.responsibilities}</div>
+                            </li>
+                            <li ng-if="item.achievements">
+                                <div className="label">Achievements:</div>
+                                <div className="content">{item.achievements}</div>
+                            </li>
+                        </ul>
+                    </section>
+                </li>);
+                })}
+            </ul>
+        </section>
+    );
+}
+
+const Education = (props) => {
+
+    return(
+        <section id="education">
+            <h1>Education</h1>
+            <ul data-content="education">
+                {props.education.map(function(item){
+                return (<li>
+                    <section>
+                        <ul>
+                            <li>
+                                <div className="label">School:</div>
+                                <div className="content">{item.school}</div>
+                            </li>
+                            <li>
+                                <div className="label">Program:</div>
+                                <div className="content">{item.program}</div>
+                            </li>
+                            <li>
+                                <div className="label">Dates Attended:</div>
+                                <div className="content">{item.startDate} - {item.endDate}</div>
+                            </li>
+                            <li>
+                                <div className="label">Achievements:</div>
+                                <div className="content">{item.achievements}</div>
+                            </li>
+                        </ul>
+                    </section>
+                </li>)
+                })}
+            </ul>
+        </section>
+    );
 }
 
 class Application extends React.Component {
@@ -203,13 +254,8 @@ class Application extends React.Component {
     
 
     componentDidMount(){
-        axios.get('resume.json')
-        .then(res => {
-            const resume = res.data;
-            console.log(resume);
-            this.setState({
-                resume: resume
-            });
+        this.setState({
+            resume: resumeData
         });
     }
 

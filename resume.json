@@ -60,6 +60,11 @@
         "GoogleMapAPI"
     ],
     "projects": [{
+            "name": "Connet Client",
+            "technologies": "CanJS, Node Webkit, NodeJS, Grunt, Perforce, QUnit",
+            "description": "Connect Client is a desktop application built using Node Webkit, which provides the full fledge softphone solution to individuals. My role is to write and design various components for the software which interacts which other components, writing tests for these components. And also help my team for any technical challanges."
+        },
+        {
             "name": "Design V2 NextGen",
             "technologies": "Object Oriented Javascript, NodeJS, Grunt, GIT",
             "description": "Next Gen Cdk websites has to accomodate the new manifest.json from the file system to apply the new themes and design provided by designers. My role is to write and test code, doing code-reviews, helping my team of 5 people for any techical or domain specific issues.",
@@ -114,7 +119,8 @@
             "title": "Technical Lead Software Engineer",
             "startDate": "June 2017",
             "endDate": "Present",
-            "responsibilities": "At Mitel we follow Agile methodologies, and I am involved in creating mobile and desktop based application for telecommunication.My responsiblities to write code for the new features and also helping my team if they stuck in any technical challanges."
+            "responsibilities": "At Mitel we follow Agile methodologies, and I am involved in creating mobile and desktop based application for telecommunication.My responsiblities to write code for the new features and also helping my team if they stuck in any technical challanges.",
+            "achievements": "Started Manhattan Team Developer Forum, Polls section in MiWebinar.com"
         },
         {
             "company": "Ness Technolgoies",
