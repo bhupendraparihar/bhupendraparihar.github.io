@@ -60,7 +60,7 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 27);
+/******/ 	return __webpack_require__(__webpack_require__.s = 28);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -7914,7 +7914,8 @@ module.exports = {
 };
 
 /***/ }),
-/* 27 */
+/* 27 */,
+/* 28 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8030,15 +8031,7 @@ var ResumeHeader = function (_React$Component) {
                             )
                         )
                     )
-                ),
-                _react2.default.createElement(Objective, { objective: this.props.resume.objective }),
-                _react2.default.createElement(AboutMe, { aboutme: this.props.resume.aboutme }),
-                _react2.default.createElement(Skills, { skills: this.props.resume.skills }),
-                _react2.default.createElement(Frameworks, { frameworks: this.props.resume.frameworks }),
-                _react2.default.createElement(Projects, { projects: this.props.resume.projects }),
-                _react2.default.createElement(PersonalProjects, { personalProjects: this.props.resume.personalProjects }),
-                _react2.default.createElement(Experience, { experience: this.props.resume.experience }),
-                _react2.default.createElement(Education, { education: this.props.resume.education })
+                )
             );
         }
     }]);
@@ -8521,6 +8514,11 @@ var Application = function (_React$Component2) {
             return _react2.default.createElement(
                 'section',
                 null,
+                _react2.default.createElement(
+                    'div',
+                    null,
+                    ' Hello There'
+                ),
                 _react2.default.createElement(ResumeHeader, { resume: this.state.resume })
             );
         }
