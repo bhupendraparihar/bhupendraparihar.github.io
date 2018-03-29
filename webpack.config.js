@@ -5,10 +5,10 @@ var BUILD_DIR = path.resolve(__dirname, '/');
 var APP_DIR = path.resolve(__dirname, '/');
 
 var config = {
-  entry: __dirname+ '/index.jsx',
+  entry: __dirname+ '/format1.jsx',
   output: {
     path: __dirname + '/script',
-    filename: 'index.js'
+    filename: 'format1.js'
   },
   resolve: {
       extensions: ['.js', '.jsx']
