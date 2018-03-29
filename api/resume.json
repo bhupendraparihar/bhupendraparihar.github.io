@@ -289,7 +289,7 @@
         },
         {
             "title": "Resume",
-            "description": "This project is to create my own resume in angular js and host it as a github page",
+            "description": "This project is to create my own resume in angular 1.4, Angular4 and ReactJS and host it as a github page. You can find respective branches with framework name",
             "link": "http://bhupendraparihar.github.io"
         }
     ]

@@ -1,0 +1,18 @@
+<section>
+    <h1 data-content="name" class="name">{{resume.name}}</h1>
+    <h2 data-content="title">{{resume.title}}</h2>
+    <section id="contact">
+        <div class="social"><i class="fa fa-phone fa-fw" aria-hidden="true"></i>&nbsp;<a href="tel:{{resume.phoneNumber}">{{resume.phoneNumber}}</a></div>
+        <div class="social">
+            <i class="fa fa-envelope fa-fw" aria-hidden="true"></i>&nbsp;<a href="mailto:{{resume.email}">{{resume.email}}</a></div>
+        <div class="social">
+            <i class="fa fa-link fa-fw" aria-hidden="true"></i>&nbsp;<a [href]="resume.website">{{resume.website}}</a>
+        </div>
+        <div class="social">
+            <i class="fa fa-github fa-fw" aria-hidden="true"></i>&nbsp;<a [href]="resume.github">{{resume.github}}</a>
+        </div>
+        <div class="social">
+            <i class="fa fa-linkedin fa-fw" aria-hidden="true"></i>&nbsp;<a [href]="resume.linkedin">{{resume.linkedin}}</a>
+        </div>
+    </section>
+</section>
