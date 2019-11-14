@@ -1,7 +1,7 @@
 <template>
-    <div class="header">
-        <div class="name">{{ name }}</div>
-        <div class="title">{{ title }} </div>
+    <section class="header">
+        <h1 class="name">{{ name }}</h1>
+        <h2 class="title">{{ title }} </h2>
         <section id="contact">
             <div class="social"><i class="fa fa-phone fa-fw" aria-hidden="true"></i>&nbsp;<a :href="`tel:${phoneNumber}`">{{phoneNumber}}</a></div>
             <div class="social">
@@ -16,7 +16,7 @@
                 <i class="fa fa-linkedin fa-fw" aria-hidden="true"></i>&nbsp;<a :href="linkedin">{{linkedin}}</a>
             </div>
         </section>
-    </div>
+    </section>
 </template>
 
 <script>
@@ -35,14 +35,12 @@ export default {
 </script>
 
 <style scoped>
-    .name, .title {
-        font-family: 'Barlow', sans-serif;
+    #contact {
+        font-size: 13px;
     }
-    .name {
-        font-size: 40px;
-    }
-    .title{
-        font-size: 30px;
+
+    #contact a {
+        text-decoration: none;
     }
 
 </style>

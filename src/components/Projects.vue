@@ -9,7 +9,7 @@
                           <div class="label">Name:</div>
                           <div class="content">{{project.name}}</div>
                       </li>
-                      <li>
+                      <li v-if="project.url">
                           <div class="label">URL:</div>
                           <div class="content"><a href="">{{project.url}}</a></div>
                       </li>

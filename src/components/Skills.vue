@@ -18,8 +18,11 @@ export default {
 </script>
 
 <style scoped>
+
 li {
     list-style: none;
+    width: 30%;
+    float: left;
 }
 </style>
 
