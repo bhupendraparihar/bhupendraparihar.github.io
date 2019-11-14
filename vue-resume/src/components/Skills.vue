@@ -1,9 +1,9 @@
 <template>
     <section>
-    <div class="header">{{name}}</div>
-    <ul>
-        <li v-for="skill in skills" :key="skill.id">{{ skill }}</li>
-    </ul>
+        <h1 class="header">{{name}}</h1>
+        <ul>
+            <li v-for="skill in skills" :key="skill.id">{{ skill }}</li>
+        </ul>
     </section>
 </template>
 
@@ -18,11 +18,6 @@ export default {
 </script>
 
 <style scoped>
-.header{
-    font-family: 'Barlow', sans-serif;
-    text-transform: uppercase;
-    font-size: 30px;
-}
 li {
     list-style: none;
 }

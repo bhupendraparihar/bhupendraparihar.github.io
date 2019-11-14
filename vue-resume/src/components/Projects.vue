@@ -1,12 +1,30 @@
 <template>
-  <section class="project-wrapper">
-    <section class="project" v-for="project in projects" :key="project.id">
-      <div>{{ project.name }}</div>
-      <div>{{ project.technologies }}</div>
-      <div>{{ project.url }}</div>
-      <div>{{ project.description }}</div>
-      <div>{{ project.role }}</div>
-    </section>
+  <section id="projects" class="project-wrapper">
+      <h1>Projects</h1>
+      <ul class="project" v-for="project in projects" :key="project.id">
+          <li>
+              <section>
+                  <ul>
+                      <li>
+                          <div class="label">Name:</div>
+                          <div class="content">{{project.name}}</div>
+                      </li>
+                      <li>
+                          <div class="label">URL:</div>
+                          <div class="content"><a href="">{{project.url}}</a></div>
+                      </li>
+                      <li>
+                          <div class="label">Technologies:</div>
+                          <div class="content">{{project.technologies}}</div>
+                      </li>
+                      <li>
+                          <div class="label">Description:</div>
+                          <div class="content">{{project.description}}</div>
+                      </li>
+                  </ul>
+              </section>
+          </li>
+      </ul>
   </section>
 </template>
 
@@ -20,14 +38,11 @@ export default {
 </script>
 
 <style scoped>
-.project-wrapper {
-    display: flex;
-    flex-direction: row;
+li {
+  display: flex;
 }
-.project {
-    border: 1px solid GREY;
-    width: 300px;
-    height: 300px;
+.content {
+  margin-left: 5px;
 }
 </style>
 
