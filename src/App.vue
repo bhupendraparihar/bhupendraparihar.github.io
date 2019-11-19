@@ -46,6 +46,9 @@ export default {
 </script>
 
 <style>
+
+@import url('https://fonts.googleapis.com/css?family=Itim|Sunshiney&display=swap');
+
 /* cyrillic-ext */
 @font-face {
   font-family: 'Open Sans';
@@ -104,7 +107,8 @@ export default {
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Itim', cursive;
 }
 
 #content {
