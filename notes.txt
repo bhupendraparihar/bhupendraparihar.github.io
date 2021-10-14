@@ -1,9 +1,0 @@
-* Install webpack globally
-npm install webpack -g
-
-* npm install
-
-* build using webpack using command
-> webpack
-
-* npm start to run the project
