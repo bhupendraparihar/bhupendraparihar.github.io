@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import ResumeData from './data/resume-data';
+import ResumeData from './data/resume-nidhi-data';
 import Header from './components/Header';
 import AboutMe from './components/AboutMe';
 import Skills from './components/Skills';
