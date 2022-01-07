@@ -115,7 +115,7 @@ const ResumeData = {
             "title": "Lead Software Engineer",
             "startDate": "June 2017",
             "endDate": "Present",
-            "responsibilities": "At Mitel we follow Agile methodologies, and I am involved in creating mobile and desktop based application for telecommunication. My responsiblities to write code for the new features and also helping my team if they stuck in any technical challanges.",
+            "responsibilities": "At Mitel we follow Agile methodologies, and I am involved in creating web applications for telecommunication domain. My responsiblities includes understanding business expectations and provide a solution for those requirements. I write code for the new features and also helping my team if they stuck in any technical challanges. I ensures that correct content, product assortments and UI functionality is developed, tested, scheduled and validated against business expectations before it publishes live.",
             "achievements": "Started Manhattan Team Developer Forum. Participated in MiTel Hackathon every year."
         },
         {
@@ -124,7 +124,7 @@ const ResumeData = {
             "title": "Senior Software Engineer",
             "startDate": "March 2014",
             "endDate": "May 2017",
-            "responsibilities": "At Ness technologies I worked for CDK Global which provide digital marketing website for car dealers all over the world, moslty for US. My responsibilities includes understanding the client requirement and create differnt widget that can be easily placed on any dealer website.",
+            "responsibilities": "At Ness technologies I worked for CDK Global which website for car dealers all over the world, moslty in United States. These websites are configured using a inhouse CMS software. I am involved in development and enhancement of that CMS solution. I have created several widgets/components here. Ness gave me opportunites to work on crucial projects where a single change can impact thousands of customers.",
             "achievements": "Introduced Dealer Locator widget using the googlemap api on various sites to easily navigate to nearest dealer."
         },
         {
@@ -151,8 +151,8 @@ const ResumeData = {
             "title": "Software Engineer",
             "startDate": "April 2010",
             "endDate": "December 2012",
-            "responsibilities": "Develoment and Design of a system which facilitate call center executive to track and manage their calls.",
-            "achievements": "Lead efforts to re-write procedural legacy application using an object-oriented approach. Act as scrum master to drive the team."
+            "responsibilities": "At Altisource, I got chance to work on project from its early stage to the time when it wend live. I was involved in develoment and design of a system which facilitate call center executives to track and manage their calls. I was also supporting some importand legacy applications.",
+            "achievements": "Lead efforts to re-write procedural legacy application using an object-oriented approach. Learnt Agile process and acted as a scrum master to drive the team."
         }
     ],
     "training": [{
