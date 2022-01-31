@@ -4,8 +4,8 @@ const Certifications = (props) => {
         <section id="education">
             <h1>Certifications</h1>
             <ul data-content="certifications">
-                {props.certifications.map(function(item){
-                return (<li>
+                {props.certifications && props.certifications.map(function(item, index){
+                return (<li key={index}>
                     <section>
                         <ul>
                             <li>

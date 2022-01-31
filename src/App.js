@@ -32,7 +32,7 @@ const App = () => {
       <Experience experience={ResumeData.experience} />
       <Projects projects={ResumeData.projects} />
       {/* <PersonalProjects personalProjects={ResumeData.personalProjects} /> */}
-      <Certifications certifications={ResumeData.certifications} />
+      {/* <Certifications certifications={ResumeData.certifications} /> */}
       <Education education={ResumeData.education} />
     </div>
   );
