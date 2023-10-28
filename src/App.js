@@ -1,17 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
-import ResumeData from './data/resume-data';
-import Header from './components/Header';
-import AboutMe from './components/AboutMe';
-import Skills from './components/Skills';
-import Experience from './components/Experience';
-import Education from './components/Education';
-import Objective from './components/Objective';
-import Projects from './components/Projects';
-import PersonalProjects from './components/PersonalProjects';
-import Frameworks from './components/Frameworks';
-import Certifications from './components/Certifications';
-import Training from './components/Training';
+import "./App.css";
+import ResumeData from "./data/resume-data";
+import Header from "./components/Header";
+import AboutMe from "./components/AboutMe";
+import Skills from "./components/Skills";
+import Experience from "./components/Experience";
+import Education from "./components/Education";
+import Projects from "./components/Projects";
+import Certifications from "./components/Certifications";
+import Training from "./components/Training";
 
 const App = () => {
   console.log(ResumeData);
