@@ -11,31 +11,33 @@ import Projects from './components/Projects';
 import PersonalProjects from './components/PersonalProjects';
 import Frameworks from './components/Frameworks';
 import Certifications from './components/Certifications';
+import Training from './components/Training';
 
 const App = () => {
   console.log(ResumeData);
   return (
     <div className="app">
-      <Header 
+      <Header
         phoneNumber={ResumeData.phoneNumber}
         title={ResumeData.title}
         name={ResumeData.name}
-        email={ResumeData.email} 
+        email={ResumeData.email}
         github={ResumeData.github}
         linkedin={ResumeData.linkedin}
         website={ResumeData.website}
       />
 
-      <AboutMe aboutme={ResumeData.aboutme}/>
+      <AboutMe aboutme={ResumeData.aboutme} />
       <Skills skills={ResumeData.skills} />
-      <Frameworks frameworks={ResumeData.frameworks} />
+      {/* <Frameworks frameworks={ResumeData.frameworks} /> */}
       <Experience experience={ResumeData.experience} />
       <Projects projects={ResumeData.projects} />
       {/* <PersonalProjects personalProjects={ResumeData.personalProjects} /> */}
       <Certifications certifications={ResumeData.certifications} />
+      <Training trainings={ResumeData.trainings} />
       <Education education={ResumeData.education} />
     </div>
   );
-}
+};
 
 export default App;
