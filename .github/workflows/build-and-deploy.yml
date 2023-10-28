@@ -46,7 +46,4 @@ jobs:
           git commit -m "Deploy to GitHub Pages"
 
           # Push the changes to the gh-pages branch
-          git push origin gh-pages
-
-          # Switch back to the original branch (e.g., master)
-          git checkout -f master
+          git push -f origin gh-pages
